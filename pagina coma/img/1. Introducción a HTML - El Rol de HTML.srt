@@ -1,0 +1,519 @@
+1
+00:00:00,090 --> 00:00:04,890
+Vamos a comenzar con nuestro primer proyecto, estaremos aprendiendo primero un poco de HTML, después
+
+2
+00:00:04,890 --> 00:00:10,320
+estaremos agregando algo de CSS, pero primero vamos a comenzar con el rol de HTML.
+
+3
+00:00:10,350 --> 00:00:15,340
+Muy importante es que sin HTML no hay páginas ni aplicaciones web.
+
+4
+00:00:15,480 --> 00:00:20,580
+Si tú entras al sitio web de Facebook, si tú entras a Amazon o si entras al sitio web de Netflix,
+
+5
+00:00:20,610 --> 00:00:23,260
+lo que estás viendo es puro código HTML.
+
+6
+00:00:23,280 --> 00:00:27,570
+Por lo tanto, es sin duda el lenguaje más importante de todos los que estaremos viendo.
+
+7
+00:00:27,900 --> 00:00:31,990
+HTML significa lenguaje de marcas de hipertexto.
+
+8
+00:00:32,010 --> 00:00:38,670
+Una característica que tienen HTML es que HTML es fácil con una sintaxis muy fácil en realidad, y también
+
+9
+00:00:38,670 --> 00:00:41,450
+bastante clara porque utilizas etiquetas etiquetas.
+
+10
+00:00:41,460 --> 00:00:48,060
+Por ejemplo, utilizas una P para definir un párrafo con un texto, utilizas NAV para definir la navegación
+
+11
+00:00:48,060 --> 00:00:48,720
+de un sitio web.
+
+12
+00:00:48,780 --> 00:00:54,040
+Cuando tu entras por ejemplo a Amazon y ves ese listado en la parte superior con las categorías, con
+
+13
+00:00:54,040 --> 00:00:58,470
+los diferentes opciones, lo más seguro es que eso se encuentre en una navegación, en una etiqueta
+
+14
+00:00:58,560 --> 00:00:59,000
+NAV.
+
+15
+00:00:59,130 --> 00:01:04,330
+También el Gelder va a definir el encabezado del sitio web o de un elemento en específico.
+
+16
+00:01:04,680 --> 00:01:10,230
+Estaremos viendo cómo utilizar esta etiqueta un poco más adelante ya en los proyectos también un main
+
+17
+00:01:10,260 --> 00:01:13,290
+para definir el contenido principal de nuestro proyecto.
+
+18
+00:01:13,320 --> 00:01:18,900
+Decirle a los visitantes Este es el contenido principal de la aplicación y también un Führer para el
+
+19
+00:01:18,900 --> 00:01:20,700
+pie de página o el elemento.
+
+20
+00:01:20,700 --> 00:01:24,930
+Entonces puedes ver que HTML son etiquetas de este tipo.
+
+21
+00:01:25,110 --> 00:01:29,010
+Ahora, cuando creas un archivo HTML debe tener cierta estructura.
+
+22
+00:01:29,160 --> 00:01:33,130
+Veamos la estructura de HTML primero son etiquetas.
+
+23
+00:01:33,150 --> 00:01:38,610
+Por lo tanto, debes de tener una etiqueta, digamos la principal, y esa etiqueta se llama HTML.
+
+24
+00:01:38,940 --> 00:01:45,630
+Nota como tenemos apertura de HTML, cierre de HTML, algunas etiquetas en HTML tiene una apertura y
+
+25
+00:01:45,630 --> 00:01:46,020
+cierre.
+
+26
+00:01:46,110 --> 00:01:51,990
+Otras como las imágenes solamente tienen apertura, entonces estaremos viendo algunos ejemplos ya con
+
+27
+00:01:51,990 --> 00:01:59,520
+código en los siguientes videos Y una vez que defines tu HTML tienes dos etiquetas principales una llamada
+
+28
+00:01:59,520 --> 00:02:01,830
+GET y una llamada body.
+
+29
+00:02:02,490 --> 00:02:08,580
+En el ID colocas información que el navegador pueda entender cómo va a interpretar esta página, qué
+
+30
+00:02:08,580 --> 00:02:14,400
+información es importante para el navegador, mientras que en el body vas a colocar lo que es importante
+
+31
+00:02:14,430 --> 00:02:16,500
+para el usuario, lo que el usuario tiene que ver.
+
+32
+00:02:16,860 --> 00:02:21,950
+Por lo tanto, en el feed, por ejemplo el Tyrol, mi página web, entre otras etiquetas que estaremos
+
+33
+00:02:21,960 --> 00:02:26,980
+viendo a lo largo de los siguientes vídeos y en el body colocas el contenido de la página web.
+
+34
+00:02:27,030 --> 00:02:31,560
+Por lo tanto, recuerda, en el get colocas lo que el navegador entiende, en el body colocas lo que
+
+35
+00:02:31,560 --> 00:02:32,910
+el usuario va a entender.
+
+36
+00:02:33,180 --> 00:02:36,920
+Ahora muchas personas dicen mi lenguaje favorito de programación es html.
+
+37
+00:02:37,170 --> 00:02:39,390
+HTML es un lenguaje.
+
+38
+00:02:39,450 --> 00:02:46,140
+Sí, sí lo es, pero no es un lenguaje de programación html, más bien es un lenguaje para darle estructura
+
+39
+00:02:46,200 --> 00:02:47,370
+a nuestros sitios web.
+
+40
+00:02:47,400 --> 00:02:50,490
+Así que vamos a crear nuestro primer archivo HTML.
+
+41
+00:02:51,390 --> 00:02:57,090
+Ya en el código recuerda abrir este freelancer inicio en estudio code o en el editor que estés utilizando.
+
+42
+00:02:58,200 --> 00:03:04,020
+Y colócate en esta barra lateral y presiona en este botón para crear un archivo y usualmente el primer
+
+43
+00:03:04,020 --> 00:03:08,910
+archivo, el principal de un sitio web, el que la persona va a visitar una vez que visita tu dominio.
+
+44
+00:03:08,910 --> 00:03:11,830
+Es decir que escribir, por ejemplo Amazon.com Netflix E.com:.
+
+45
+00:03:12,240 --> 00:03:19,110
+Ese archivo se debe de nombrar como index, punto seguido de la extensión en HTML hay dos extensiones
+
+46
+00:03:19,110 --> 00:03:23,760
+que puedes utilizar htm y html.
+
+47
+00:03:23,880 --> 00:03:29,310
+Usualmente se recomiendan más la extensión completa, es decir, punto html y le damos enter.
+
+48
+00:03:30,370 --> 00:03:36,880
+Vamos a abrir este archivo dando doble clic y un truco que tiene estudio Code es que le puedes colocar
+
+49
+00:03:36,880 --> 00:03:42,610
+aquí el signo de exclamación y presionar TAB y te va a generar toda esta estructura básica.
+
+50
+00:03:42,640 --> 00:03:51,370
+Nota como tenemos aquí el HTML de apertura y el HTML de cierre, después tenemos este GET que recuerda
+
+51
+00:03:51,370 --> 00:03:57,220
+este tiene información que es importante para el navegador y también tenemos el body que contienen información
+
+52
+00:03:57,220 --> 00:04:01,600
+de lo que se va a ver en pantalla por parte del usuario o si recuerdas en el video anterior instalamos
+
+53
+00:04:01,630 --> 00:04:02,410
+Live Server.
+
+54
+00:04:03,250 --> 00:04:08,500
+Por lo tanto, si le damos botón derecho y le damos abrir con Live Server, esto nos va a crear un pequeño
+
+55
+00:04:08,500 --> 00:04:08,970
+servidor.
+
+56
+00:04:08,980 --> 00:04:10,740
+Nota como no se ve nada no?
+
+57
+00:04:11,730 --> 00:04:16,050
+Eso pasa porque en el Boddy aún no tenemos definido nada, por lo tanto, lo que está en el body es
+
+58
+00:04:16,050 --> 00:04:17,130
+lo que se va a ver en pantalla.
+
+59
+00:04:17,130 --> 00:04:18,480
+De momento no hay nada.
+
+60
+00:04:18,990 --> 00:04:22,830
+Cuando estás aprendiendo un lenguaje de programación siempre se hace el ejemplo del Hola mundo, vamos
+
+61
+00:04:22,830 --> 00:04:24,540
+a hacer el ejemplo mundo en HTML.
+
+62
+00:04:24,570 --> 00:04:27,870
+No es un lenguaje de programación, pero sí es un lenguaje y estamos aprendiendo.
+
+63
+00:04:28,290 --> 00:04:34,800
+Por lo tanto voy a ponerle H1 y nota como tengo h1 de apertura y h1 de cierre de nueva cuenta en HTML
+
+64
+00:04:34,800 --> 00:04:39,750
+y etiquetas que tienen apertura y que tienen cierre y otras solamente tienen apertura.
+
+65
+00:04:40,170 --> 00:04:41,320
+Estaremos viendo algunas.
+
+66
+00:04:41,340 --> 00:04:43,990
+No tienes que memorizar cuáles tienen apertura y cuáles tienen cierre.
+
+67
+00:04:44,010 --> 00:04:49,170
+Con la práctica seguramente va a quedar más claro y vas a saber qué tienes que hacer dentro de este
+
+68
+00:04:49,170 --> 00:04:49,680
+H1.
+
+69
+00:04:49,740 --> 00:04:52,710
+Vas a colocar lo que va a estar dentro de estas dos etiquetas.
+
+70
+00:04:52,710 --> 00:04:54,870
+En este caso vamos a poner aquí Hola mundo!
+
+71
+00:04:55,560 --> 00:05:00,510
+Y algo que me gusta mucho del Aire Server es que cuando guardas cambios y abres el navegador puedes
+
+72
+00:05:00,510 --> 00:05:03,240
+ver que no tienes que recargar la pantalla.
+
+73
+00:05:03,690 --> 00:05:04,770
+Ya lo hace por ti.
+
+74
+00:05:04,800 --> 00:05:08,700
+Por ejemplo, si yo muevo esto un poco hacia acá y pongo aquí Hola Mundo 2, puedes ver que desde el
+
+75
+00:05:08,700 --> 00:05:12,020
+momento en que guardo recargas a pantalla, entonces me gusta mucho.
+
+76
+00:05:12,030 --> 00:05:18,630
+Es una forma de hacerlo más eficiente el trabajar con Live Server dos cosas sobre HTML.
+
+77
+00:05:19,350 --> 00:05:20,640
+Bueno, tres en realidad.
+
+78
+00:05:20,670 --> 00:05:24,000
+Primero, HTML no es un lenguaje que sea muy estricto.
+
+79
+00:05:24,000 --> 00:05:29,880
+Si estás aprendiendo programación en la universidad o en la prepa y por ejemplo estás trabajando con
+
+80
+00:05:29,880 --> 00:05:34,350
+Java con C, sabrás que un punto y coma hace que tu código no funcione.
+
+81
+00:05:34,440 --> 00:05:40,500
+HTML Si tú le pones nada más la apertura del H1 y no le pones el cierre HTML no dice nada, no te va
+
+82
+00:05:40,500 --> 00:05:44,410
+a decir ah, se te olvidó el cierre, no voy a compilar, no hace nada de eso.
+
+83
+00:05:44,430 --> 00:05:51,000
+HTML Casi casi te dice bueno, si es que estás tratando de hacerlo, voy a completar por ti para que
+
+84
+00:05:51,000 --> 00:05:52,350
+no te marque errores.
+
+85
+00:05:52,410 --> 00:05:55,800
+No, de hecho si le damos a quien inspeccionar y le damos a inspeccionar.
+
+86
+00:05:55,830 --> 00:05:59,190
+Esta es una herramienta que tienen todos los navegadores hoy en día.
+
+87
+00:05:59,460 --> 00:06:05,130
+Te va a permitir ver el código fuente de tus proyectos y también te va a permitir ver que CSS se está
+
+88
+00:06:05,130 --> 00:06:05,660
+aplicando.
+
+89
+00:06:05,670 --> 00:06:06,360
+No te abruma, saben?
+
+90
+00:06:06,360 --> 00:06:08,340
+Por esa parte lo veremos ya los siguientes videos.
+
+91
+00:06:08,880 --> 00:06:13,350
+Pero nota como tenemos aquí la apertura del H1 tiene aquí un hola mundo y acá tenemos el cierre del
+
+92
+00:06:13,350 --> 00:06:13,920
+H1.
+
+93
+00:06:14,160 --> 00:06:18,510
+Entonces digamos que el navegador lo completa por ti y no te tienes que preocupar tanto.
+
+94
+00:06:18,540 --> 00:06:24,690
+Pero mi recomendación es que siempre coloques la apertura y el cierre, porque si colocas una apertura
+
+95
+00:06:25,140 --> 00:06:30,210
+pero no pones el cierre y tienes más contenido si se va a mezclar esa parte, si la tiene html.
+
+96
+00:06:30,540 --> 00:06:35,060
+Segundo, mencioné que en el GET es donde colocas la información que el navegador puede entender.
+
+97
+00:06:35,070 --> 00:06:39,990
+Nota Por ejemplo, como tenemos este metán noii dice viewport esto es muy importante, lo veremos en
+
+98
+00:06:39,990 --> 00:06:44,280
+la parte de responsive web design, pero también nota como tenemos este Tyrol y dice documen.
+
+99
+00:06:44,370 --> 00:06:45,960
+Ese document es lo que está aquí arriba.
+
+100
+00:06:47,200 --> 00:06:52,930
+Este proyecto, el primero es de un diseñador freelancer aquí, así que lo ponemos aquí diseñador freelancer
+
+101
+00:06:53,650 --> 00:06:57,380
+y si guardamos cambios eso le va a colocar el nombre en la pestaña superior.
+
+102
+00:06:57,400 --> 00:07:03,040
+Por lo tanto, esta parte de arriba GeV son etiquetas reservadas para el navegador pero de nueva cuenta
+
+103
+00:07:03,040 --> 00:07:03,580
+HTML.
+
+104
+00:07:03,580 --> 00:07:09,550
+Si tu mueves el h1 hacia arriba va a mostrar algo, no va a ser muy estricto, no te va a decir ah,
+
+105
+00:07:09,610 --> 00:07:11,800
+estás colocando un h1 en el get.
+
+106
+00:07:11,800 --> 00:07:18,070
+No voy a compilar, pero si pasas tu código por uno de esos sitios web que sirven para verificar que
+
+107
+00:07:18,070 --> 00:07:21,580
+tengas código HTML válido, ahí sí te va a marcar un error.
+
+108
+00:07:21,580 --> 00:07:25,990
+Te va a decir estás colocando un H1 dentro del GET, pero en la parte de desarrollo no te va a decir
+
+109
+00:07:25,990 --> 00:07:26,400
+nada.
+
+110
+00:07:27,770 --> 00:07:30,530
+Finalmente, esta es una etiqueta válida de HTML.
+
+111
+00:07:30,560 --> 00:07:35,150
+El H1 estaremos viendo los siguientes videos, pero si tu colocas, por ejemplo voy a poner aquí mi
+
+112
+00:07:35,150 --> 00:07:39,020
+nombre Juan como etiqueta de nueva cuenta, te voy a mostrar algo.
+
+113
+00:07:39,050 --> 00:07:42,120
+Nota cómo se ve diferente, pero aparece la etiqueta.
+
+114
+00:07:42,140 --> 00:07:44,750
+Juan, puedes crear tus propias etiquetas.
+
+115
+00:07:44,780 --> 00:07:50,180
+Obviamente está en contra de lo que se conoce como semántica en HTML, pero de nueva cuenta.
+
+116
+00:07:50,180 --> 00:07:55,460
+La idea o lo que te muestro es que HTML no es precisamente el lenguaje más estricto del mundo.
+
+117
+00:07:56,060 --> 00:08:01,610
+Es buena práctica hacerlo bien, es decir, apertura y cierre donde se requiera no inventar etiquetas.
+
+118
+00:08:02,090 --> 00:08:05,540
+Pero no te va a decir nada, no te va a marcar ningún error.
+
+119
+00:08:06,080 --> 00:08:07,940
+Entonces siempre utiliza etiquetas válidas.
+
+120
+00:08:08,000 --> 00:08:09,500
+Lo vimos anteriormente con el H1.
+
+121
+00:08:09,500 --> 00:08:14,360
+Es así, es una etiqueta válida, pero también le puedes poner en mayúsculas H1, por ejemplo, y no
+
+122
+00:08:14,360 --> 00:08:14,990
+va a pasar nada.
+
+123
+00:08:14,990 --> 00:08:18,100
+Lo va a compilar o lo va a mostrar como un H1 en minúsculas.
+
+124
+00:08:18,110 --> 00:08:23,960
+Usualmente todas las etiquetas deben ser en minúsculas, pero si las usas en mayúsculas no hay problema
+
+125
+00:08:23,960 --> 00:08:24,530
+tampoco.
+
+126
+00:08:25,900 --> 00:08:27,880
+Entonces utilízala siempre con minúsculas.
+
+127
+00:08:28,450 --> 00:08:33,580
+Entonces con eso tenemos listo ya nuestro Hola mundo en HTML, en el siguiente vídeo estaremos comenzando
+
+128
+00:08:33,580 --> 00:08:34,590
+a crear este diseño.
+
+129
+00:08:34,780 --> 00:08:40,390
+Lo que vamos a tratar de recrear en los siguientes videos ya con código HTML con código CSS.
+
+130
+00:08:40,840 --> 00:08:43,870
+Que vamos a comenzar con esta parte en el siguiente video.
